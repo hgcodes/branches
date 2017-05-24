@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Git Collab Exercise</title>
+  <style type="text/css">
+    body {
+      font-size: 2.0em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Top cities, by population</h1>
+
+  <p>
+    Taken (borrowed?) from
+    <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population" target="_blank">
+      Wikipedia
+    </a>
+  </p>
+
+  <hr/>
+
+ <main class="container">
+      <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <form action="/tweets/" method="POST">
+          <textarea name="text" placeholder="What are you humming about?"></textarea>
+          <input type="submit" class="submit-button" value="Tweet">
+          <span class="counter">140</span>
+        </form>
+      <div class="errors">
+        <p id="empty-tweet">Cannot submit an empty tweet</p>
+        <p id="excessive-tweet">Exceeded permitted character count</p>
+      </div>
+      </section>
+
+
+  <ol>
+    <li>Alysialand (7,836,133)</li>
+    <li>Heatherville (15,854,740)</li>
+    <li>Lighthouseville (13,854,740)</li>
+    <li>Shanghai (17,836,133)</li>
+    <li>Istanbul (13,854,740)</li>
+    <li>Karachi  (12,991,000)</li>
+    <li>Mumbai   (12,478,447)</li>
+    <li>AlysiaVille   (14,478,447)</li>
+    <li>Banana City (13,854,740)</li>
+    <li>AlysiaIsland   (14,478,447)</li>
+  </ol>
+
+</body>
+</html>
